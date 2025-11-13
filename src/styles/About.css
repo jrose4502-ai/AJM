@@ -1,0 +1,179 @@
+/* ===== ABOUT SECTION ===== */
+.about {
+    padding: 100px 0;
+    background: #f9fafb;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #111827;
+}
+
+.title-underline {
+    width: 80px;
+    height: 4px;
+    background: #dc2626;
+    margin: 0 auto 1rem;
+    border-radius: 2px;
+}
+
+.section-description {
+    font-size: 1.1rem;
+    color: #4b5563;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-text h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #dc2626;
+}
+
+.about-text p {
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.founders {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.founder-card {
+    flex: 1;
+    text-align: center;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border: 2px solid #e5e7eb;
+}
+
+.founder-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(220, 38, 38, 0.15);
+    border-color: #dc2626;
+}
+
+.founder-icon {
+    font-size: 3rem;
+    color: #dc2626;
+    margin-bottom: 1rem;
+}
+
+.founder-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #111827;
+}
+
+.founder-card p {
+    color: #4b5563;
+    margin: 0;
+}
+
+.approach-section {
+    background: #ffffff;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border: 2px solid #e5e7eb;
+}
+
+.approach-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #dc2626;
+    text-align: center;
+}
+
+.approach-intro {
+    color: #4b5563;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.approach-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.approach-card {
+    text-align: center;
+    padding: 2rem;
+    background: #f9fafb;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    border: 2px solid #e5e7eb;
+}
+
+.approach-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(220, 38, 38, 0.15);
+    border-color: #dc2626;
+    background: #ffffff;
+}
+
+.approach-icon {
+    font-size: 3rem;
+    color: #dc2626;
+    margin-bottom: 1rem;
+}
+
+.approach-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #111827;
+}
+
+.approach-card p {
+    color: #4b5563;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .founders {
+        flex-direction: column;
+    }
+
+    .approach-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .approach-section {
+        padding: 2rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}
