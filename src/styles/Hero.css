@@ -99,26 +99,28 @@
 }
 
 .btn-primary {
-    background: var(--green);
+    background: var(--neon-blue-cyan);
     color: var(--white);
-    box-shadow: 0 4px 15px rgba(116, 181, 81, 0.3);
+    box-shadow: 0 4px 15px rgba(18, 194, 233, 0.4);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(116, 181, 81, 0.4);
-    background: #85c562;
+    box-shadow: 0 6px 20px rgba(18, 194, 233, 0.5);
+    background: var(--neon-blue-deep);
 }
 
 .btn-secondary {
-    background: var(--white);
+    background: rgba(255, 255, 255, 0.9);
     color: var(--navy);
-    border: 2px solid var(--white);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
 }
 
 .btn-secondary:hover {
-    background: var(--teal);
+    background: var(--neon-blue-cyan);
     color: var(--white);
+    border-color: var(--neon-blue-cyan);
     transform: translateY(-3px);
 }
 

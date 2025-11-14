@@ -1,7 +1,7 @@
 /* ===== SERVICES SECTION ===== */
 .services {
     padding: 100px 0;
-    background: var(--white);
+    background: transparent;
 }
 
 .services-grid {
@@ -11,16 +11,17 @@
 }
 
 .service-card {
-    background: var(--light-gray);
+    background: linear-gradient(180deg, #e0f2ff 0%, #b8e0ff 100%);
     padding: 3rem 2rem;
     border-radius: 12px;
     text-align: center;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    border: 2px solid var(--medium-gray);
+    border: 2px solid rgba(255, 255, 255, 0.3);
     cursor: pointer;
     box-shadow: var(--shadow-sm);
+    backdrop-filter: blur(10px);
 }
 
 .service-card::before {
@@ -42,8 +43,8 @@
 .service-card:hover {
     transform: translateY(-10px);
     box-shadow: var(--shadow-md);
-    border-color: var(--green);
-    background: var(--white);
+    border-color: var(--neon-blue-cyan);
+    background: linear-gradient(180deg, #d0e8ff 0%, #b0d8ff 100%);
 }
 
 .service-icon {
@@ -73,7 +74,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--navy);
+    background: linear-gradient(135deg, var(--neon-blue-deep) 0%, var(--neon-blue-cyan) 100%);
     display: flex;
     align-items: center;
     justify-content: center;

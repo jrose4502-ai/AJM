@@ -1,7 +1,7 @@
 /* ===== VIDEO SECTION ===== */
 .video-section {
     padding: 100px 0;
-    background: var(--white);
+    background: transparent;
 }
 
 .video-header {
@@ -33,15 +33,15 @@
     border-radius: 12px;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
-    border: 3px solid var(--green);
+    border: 3px solid var(--neon-blue-cyan);
     background: #000000;
     transition: all 0.3s ease;
 }
 
 .video-container:hover {
-    box-shadow: 0 15px 50px rgba(116, 181, 81, 0.3);
+    box-shadow: 0 15px 50px rgba(18, 194, 233, 0.4);
     transform: translateY(-5px);
-    border-color: var(--teal);
+    border-color: var(--neon-blue-deep);
 }
 
 .showcase-video {
@@ -58,7 +58,7 @@
 
 .showcase-video::-webkit-media-controls-play-button,
 .showcase-video::-webkit-media-controls-start-playback-button {
-    background-color: var(--green);
+    background-color: var(--neon-blue-cyan);
     border-radius: 50%;
 }
 
