@@ -4,37 +4,39 @@
     top: 0;
     left: 0;
     right: 0;
-    /* Narrow white strip under logo, then smooth transition into theme colors */
+    /* Narrow white strip under logo, then smooth transition into more neon blue theme */
     background: linear-gradient(
         90deg,
         #ffffff 0%,
-        #ffffff 16%,
-        #f5f7fa 24%,
-        #dde6ee 32%,
-        #1A2E40 50%,
-        #1e455f 68%,
-        #0D8C88 100%
+        #ffffff 18%,
+        #f5fbff 28%,
+        #d9f0ff 40%,
+        #8fd3ff 52%,
+        #2b7cff 68%,
+        #1488CC 82%,
+        #12c2e9 100%
     );
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     z-index: 1000;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     transition: all 0.3s ease;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
 }
 
 .navbar.scrolled {
-    padding: 0.75rem 0;
+    padding: 0.4rem 0;
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
     background: linear-gradient(
         90deg,
         #ffffff 0%,
-        #ffffff 14%,
-        #f5f7fa 22%,
-        #dde6ee 30%,
-        #1A2E40 50%,
-        #1e455f 68%,
-        #0D8C88 100%
+        #ffffff 16%,
+        #f5fbff 26%,
+        #d9f0ff 38%,
+        #8fd3ff 52%,
+        #2b7cff 70%,
+        #1488CC 84%,
+        #12c2e9 100%
     );
 }
 
@@ -58,7 +60,7 @@
 }
 
 .logo-image {
-    height: 280px;
+    height: 140px;
     width: auto;
     transition: all 0.3s ease;
 }
@@ -76,7 +78,7 @@
 }
 
 .navbar.scrolled .logo-image {
-    height: 244px;
+    height: 122px;
 }
 
 .navbar.scrolled .logo-tagline {
@@ -93,7 +95,7 @@
 }
 
 .nav-link {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
     font-weight: 500;
     transition: all 0.2s ease;
@@ -162,7 +164,7 @@
     }
     
     .logo-image {
-        height: 225px;
+        height: 112px;
     }
     
     .logo-tagline {
@@ -170,7 +172,7 @@
     }
     
     .navbar.scrolled .logo-image {
-        height: 180px;
+        height: 90px;
     }
     
     .navbar.scrolled .logo-tagline {

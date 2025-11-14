@@ -6,9 +6,10 @@
 }
 
 :root {
-  --navy: #1A2E40;
-  --green: #74B551;
-  --teal: #0D8C88;
+  /* Tuned to better match the new logo palette: deep teal + fresh green + soft navy */
+  --navy: #123043;
+  --green: #6AC46F;
+  --teal: #0FA3A9;
   --white: #FFFFFF;
   --light-gray: #F5F7FA;
   --medium-gray: #E8EDF2;
