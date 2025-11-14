@@ -93,6 +93,9 @@ const Contact = () => {
               <p>
                 <a href="tel:5598748874">(559) 874-8874</a>
               </p>
+              <p>
+                <a href="tel:5595101055">(559) 510-1055</a>
+              </p>
             </div>
             <div className="contact-card">
               <div className="contact-icon">
