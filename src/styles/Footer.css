@@ -66,19 +66,77 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(18, 194, 233, 0.2);
     border-radius: 50%;
-    color: var(--neon-blue-cyan);
     text-decoration: none;
     transition: all 0.2s ease;
-    border: 2px solid var(--neon-blue-cyan);
+    border: 2px solid;
 }
 
-.social-link:hover {
-    background: var(--neon-blue-cyan);
+/* Facebook - Official Facebook Medium Blue */
+.social-facebook {
+    background: rgba(66, 103, 178, 0.2);
+    color: #4267B2;
+    border-color: #4267B2;
+}
+
+.social-facebook:hover {
+    background: #4267B2;
     color: var(--white);
     transform: translateY(-5px);
-    border-color: var(--neon-blue-cyan);
+    border-color: #4267B2;
+}
+
+/* X (formerly Twitter) - Official X Black */
+.social-x {
+    background: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.social-x i {
+    font-size: 1.15em;
+    font-weight: 900;
+    color: #FFFFFF !important;
+    display: block;
+    line-height: 1;
+}
+
+.social-x:hover {
+    background: #000000;
+    border-color: #000000;
+    transform: translateY(-5px);
+}
+
+.social-x:hover i {
+    color: #FFFFFF !important;
+}
+
+/* Instagram - Vibrant Gradient (Purple to Pink, Orange, Yellow) */
+.social-instagram {
+    background: linear-gradient(45deg, rgba(131, 58, 180, 0.3), rgba(225, 48, 108, 0.3), rgba(253, 224, 71, 0.3));
+    color: #833AB4;
+    border: 2px solid #833AB4;
+}
+
+.social-instagram:hover {
+    background: linear-gradient(45deg, #833AB4, #E1306C, #FDE047, #FCAF45);
+    color: var(--white);
+    transform: translateY(-5px);
+    border-color: #833AB4;
+}
+
+/* LinkedIn - Official LinkedIn Medium Blue */
+.social-linkedin {
+    background: rgba(0, 119, 181, 0.2);
+    color: #0077B5;
+    border-color: #0077B5;
+}
+
+.social-linkedin:hover {
+    background: #0077B5;
+    color: var(--white);
+    transform: translateY(-5px);
+    border-color: #0077B5;
 }
 
 .footer-bottom {

@@ -17,16 +17,16 @@ const Footer = () => {
             <h3>AJ Money Makers</h3>
             <p>Your trusted digital marketing partner in Los Angeles.</p>
             <div className="social-links">
-              <a href="https://facebook.com" className="social-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://facebook.com" className="social-link social-facebook" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="https://twitter.com" className="social-link" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-twitter"></i>
+              <a href="https://x.com" className="social-link social-x" target="_blank" rel="noopener noreferrer" aria-label="X (formerly Twitter)">
+                <i className="fab fa-x-twitter"></i>
               </a>
-              <a href="https://instagram.com" className="social-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com" className="social-link social-instagram" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="https://linkedin.com" className="social-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://linkedin.com" className="social-link social-linkedin" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </div>
