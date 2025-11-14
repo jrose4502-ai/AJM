@@ -1,8 +1,8 @@
 /* ===== FOOTER ===== */
 .footer {
-    background: #111827;
+    background: var(--navy);
     padding: 3rem 0 1rem;
-    border-top: 4px solid #dc2626;
+    border-top: 4px solid var(--green);
 }
 
 .footer-content {
@@ -15,13 +15,18 @@
 .footer-section h3,
 .footer-section h4 {
     margin-bottom: 1.5rem;
-    color: #ffffff;
+    color: var(--white);
+    font-weight: 600;
+    font-family: var(--heading-font);
 }
 
 .footer-section p,
 .footer-section ul li {
-    color: #9ca3af;
+    color: var(--white);
+    opacity: 0.8;
     margin-bottom: 0.5rem;
+    font-weight: 400;
+    font-family: var(--body-font);
 }
 
 .footer-section ul {
@@ -31,18 +36,22 @@
 }
 
 .footer-section ul li a {
-    color: #9ca3af;
+    color: var(--white);
+    opacity: 0.8;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
+    font-weight: 400;
+    font-family: var(--body-font);
 }
 
 .footer-section ul li a:hover {
-    color: #dc2626;
+    color: var(--green);
+    opacity: 1;
 }
 
 .footer-section ul li i {
     margin-right: 0.5rem;
-    color: #dc2626;
+    color: var(--green);
 }
 
 .social-links {
@@ -57,26 +66,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(220, 38, 38, 0.1);
+    background: rgba(116, 181, 81, 0.2);
     border-radius: 50%;
-    color: #dc2626;
+    color: var(--green);
     text-decoration: none;
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
+    transition: all 0.2s ease;
+    border: 2px solid var(--green);
 }
 
 .social-link:hover {
-    background: #dc2626;
-    color: #ffffff;
+    background: var(--green);
+    color: var(--navy);
     transform: translateY(-5px);
-    border-color: #dc2626;
 }
 
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid #374151;
-    color: #9ca3af;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    opacity: 0.8;
+    font-weight: 400;
+    font-family: var(--body-font);
 }
 
 /* ===== RESPONSIVE DESIGN ===== */

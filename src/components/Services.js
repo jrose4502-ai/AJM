@@ -37,7 +37,13 @@ const Services = () => {
       icon: 'fas fa-code',
       title: 'Web Development',
       description: 'Build stunning, responsive websites that convert visitors into customers.',
-      features: ['Custom Design', 'E-commerce Solutions', 'Mobile Optimization', 'Maintenance & Support']
+      features: [
+        'Website Launch Package (design, build, and go-live)',
+        'Custom Design',
+        'E-commerce Solutions',
+        'Mobile Optimization',
+        'Maintenance & Support'
+      ]
     }
   ];
 

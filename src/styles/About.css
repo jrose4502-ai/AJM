@@ -1,7 +1,7 @@
 /* ===== ABOUT SECTION ===== */
 .about {
     padding: 100px 0;
-    background: #f9fafb;
+    background: var(--light-gray);
 }
 
 .section-header {
@@ -11,24 +11,28 @@
 
 .section-title {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 1rem;
-    color: #111827;
+    color: var(--navy);
+    font-family: var(--heading-font);
 }
 
 .title-underline {
     width: 80px;
     height: 4px;
-    background: #dc2626;
+    background: var(--green);
     margin: 0 auto 1rem;
-    border-radius: 2px;
+    border-radius: 6px;
 }
 
 .section-description {
     font-size: 1.1rem;
-    color: #4b5563;
+    color: var(--navy);
     max-width: 600px;
     margin: 0 auto;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: var(--body-font);
 }
 
 .about-content {
@@ -41,14 +45,18 @@
 .about-text h3 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: #dc2626;
+    color: var(--navy);
+    font-weight: 600;
+    font-family: var(--heading-font);
 }
 
 .about-text p {
-    color: #4b5563;
+    color: var(--navy);
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
     line-height: 1.8;
+    font-weight: 400;
+    font-family: var(--body-font);
 }
 
 .founders {
@@ -61,57 +69,66 @@
     flex: 1;
     text-align: center;
     padding: 2rem;
-    background: #ffffff;
-    border-radius: 15px;
+    background: var(--white);
+    border-radius: 12px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-    border: 2px solid #e5e7eb;
+    box-shadow: var(--shadow-sm);
+    border: 2px solid var(--medium-gray);
 }
 
 .founder-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 30px rgba(220, 38, 38, 0.15);
-    border-color: #dc2626;
+    box-shadow: var(--shadow-md);
+    border-color: var(--green);
 }
 
 .founder-icon {
     font-size: 3rem;
-    color: #dc2626;
+    color: var(--green);
     margin-bottom: 1rem;
 }
 
 .founder-card h4 {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
-    color: #111827;
+    color: var(--navy);
+    font-weight: 600;
+    font-family: var(--heading-font);
 }
 
 .founder-card p {
-    color: #4b5563;
+    color: var(--navy);
     margin: 0;
+    font-weight: 400;
+    opacity: 0.8;
+    font-family: var(--body-font);
 }
 
 .approach-section {
-    background: #ffffff;
+    background: var(--white);
     padding: 3rem;
-    border-radius: 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    border: 2px solid var(--medium-gray);
 }
 
 .approach-title {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: #dc2626;
+    color: var(--navy);
     text-align: center;
+    font-weight: 600;
+    font-family: var(--heading-font);
 }
 
 .approach-intro {
-    color: #4b5563;
+    color: var(--navy);
     font-size: 1.1rem;
     line-height: 1.8;
     text-align: center;
     margin-bottom: 2.5rem;
+    font-weight: 400;
+    font-family: var(--body-font);
 }
 
 .approach-cards {
@@ -123,35 +140,39 @@
 .approach-card {
     text-align: center;
     padding: 2rem;
-    background: #f9fafb;
-    border-radius: 15px;
+    background: var(--light-gray);
+    border-radius: 12px;
     transition: all 0.3s ease;
-    border: 2px solid #e5e7eb;
+    border: 2px solid var(--medium-gray);
 }
 
 .approach-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 30px rgba(220, 38, 38, 0.15);
-    border-color: #dc2626;
-    background: #ffffff;
+    box-shadow: var(--shadow-md);
+    border-color: var(--teal);
+    background: var(--white);
 }
 
 .approach-icon {
     font-size: 3rem;
-    color: #dc2626;
+    color: var(--teal);
     margin-bottom: 1rem;
 }
 
 .approach-card h4 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #111827;
+    color: var(--navy);
+    font-weight: 600;
+    font-family: var(--heading-font);
 }
 
 .approach-card p {
-    color: #4b5563;
+    color: var(--navy);
     line-height: 1.6;
     margin: 0;
+    font-weight: 400;
+    font-family: var(--body-font);
 }
 
 /* ===== RESPONSIVE DESIGN ===== */

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/Navbar.css';
-import logo from '../assets/images/icon-transparent.png';
+import logo from '../assets/images/newlogo.png';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -43,6 +43,7 @@ const Navbar = () => {
         <div className="nav-wrapper">
           <div className="logo" onClick={() => scrollToSection('home')}>
             <img src={logo} alt="AJ Money Makers Logo" className="logo-image" />
+            <span className="logo-tagline">Digital Marketing Agency</span>
           </div>
           <div 
             className={`hamburger ${mobileMenuOpen ? 'active' : ''}`}

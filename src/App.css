@@ -1,10 +1,19 @@
 .App {
   min-height: 100vh;
   overflow-x: hidden;
+  background-color: var(--white);
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.title-underline {
+  width: 80px;
+  height: 4px;
+  background: var(--green);
+  margin: 0 auto 1rem;
+  border-radius: 6px;
 }

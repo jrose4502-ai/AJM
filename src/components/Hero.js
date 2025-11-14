@@ -1,21 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import '../styles/Hero.css';
+import websiteVideo from '../assets/videos/finished vid.mp4';
 
 const Hero = () => {
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-
-  useEffect(() => {
-    const handleMouseMove = (e) => {
-      setMousePos({
-        x: e.clientX / window.innerWidth,
-        y: e.clientY / window.innerHeight
-      });
-    };
-
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, []);
-
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -23,12 +10,11 @@ const Hero = () => {
     }
   };
 
-  const gradientStyle = {
-    background: `linear-gradient(${135 + mousePos.x * 50}deg, #ffffff 0%, #fef2f2 ${50 + mousePos.y * 20}%, #fee2e2 100%)`
-  };
-
   return (
-    <section id="home" className="hero" style={gradientStyle}>
+    <section id="home" className="hero">
+      <video className="hero-video" autoPlay loop muted playsInline>
+        <source src={websiteVideo} type="video/mp4" />
+      </video>
       <div className="hero-overlay"></div>
       <div className="container">
         <div className="hero-content">
@@ -50,11 +36,6 @@ const Hero = () => {
               Our Services
             </button>
           </div>
-        </div>
-      </div>
-      <div className="scroll-indicator">
-        <div className="mouse">
-          <div className="wheel"></div>
         </div>
       </div>
     </section>
